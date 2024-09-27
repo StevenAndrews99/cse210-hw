@@ -1,10 +1,11 @@
-using System;
-
 public class Resume
 {
-    public string_name;
-
+    public string_name; = "";
     public List<Job> _jobs = new List<Job>();
+
+    public Resume()
+    {
+    }
 
     public void Display()
     {
@@ -16,4 +17,5 @@ public class Resume
             job.Display();
         }
     }
+    
 }
