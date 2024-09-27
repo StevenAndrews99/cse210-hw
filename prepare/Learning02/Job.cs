@@ -2,10 +2,10 @@ using System;
 
 public class Job
 {
-    public string_jobTitle; = "";
-    public string_company; = "";
-    public int_startYear; = 0;
-    public int_endYear; = 0;
+    public string _jobTitle = "";
+    public string _company = "";
+    public int _startYear = 0;
+    public int _endYear = 0;
 
     public Job()
     {
